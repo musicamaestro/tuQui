@@ -13,16 +13,20 @@ import { firebaseConfig } from 'src/environments/environment';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 
 
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,
   AngularFireModule.initializeApp(firebaseConfig),
-AngularFireDatabaseModule ],
+AngularFireDatabaseModule
+
+ ],
   providers: [
     StatusBar,
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+   
   ],
   bootstrap: [AppComponent]
 })
