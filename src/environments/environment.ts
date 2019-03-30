@@ -7,11 +7,11 @@ production: false}
 
 export const 
 firebaseConfig = {
-      apiKey: "AIzaSyBlb3C91cqFPXMkSnKXF-z0UR6gmBQu4Is",
-      authDomain: "thirtypeople-clone.firebaseapp.com",
-      databaseURL: "https://thirtypeople-clone.firebaseio.com",
+      apiKey: "FakeKey34.12C9ZZZZZZZZZZZUR6>Fake",
+      authDomain: "thirtydaysclone.firebaseapp.com",
+      databaseURL: "https://thiaplleNotone.firebaseio.com",
       projectId: "thirtypeople-clone",
-      storageBucket: "thirtypeople-clone.appspot.com",
+      storageBucket: "tappletrae-clone.appspot.com",
       messagingSenderId: "97243330282"
 
 };
